@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppThemeWithoutActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorPrimary</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="alertDialogTheme">@style/AppThemeDialog</item>
+    </style>
+
+    <style name="AppThemeWithActionBar" parent="android:Theme.Holo.Light">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:editTextColor">@color/textColor</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="alertDialogTheme">@style/AppThemeDialog</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppThemeMinWidth" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:editTextColor">@color/textColor</item>
+    </style>
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+</resources>

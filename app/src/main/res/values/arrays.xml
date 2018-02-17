@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity.java -->
+    <string-array name="tabs_titles">
+        <item>@string/activity</item>
+        <item>@string/tracks</item>
+    </string-array>
+
+    <!-- preferences.xml -->
+    <string-array name="category_general_unit_entries">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+    <string-array name="category_general_unit_entry_values">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+
+    <string-array name="category_general_date_entries">
+        <item>TT.MM.YYYY</item>
+        <item>MM-TT-YYYY</item>
+    </string-array>
+    <string-array name="category_general_date_entry_values">
+        <item>dd.MM.yyyy HH:mm:ss</item>
+        <item>MM-dd-yyyy h:mm a</item>
+    </string-array>
+
+    <string-array name="category_activity_interval_entries">
+        <item>1 (Alto consumo de bateria)</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="category_activity_interval_entry_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="category_map_type_entries">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="category_map_type_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

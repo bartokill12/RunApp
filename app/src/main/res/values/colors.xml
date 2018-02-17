@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background of the StatusBar -->
+    <color name="colorPrimaryDark">#01488f</color>
+    <!-- Background of the ActionBar -->
+    <color name="colorPrimary">#0447d6</color>
+    <!-- Text in ActionBar -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <!-- Text when Tab is selected -->
+    <color name="state_selected">#FFFFFF</color>
+    <!-- Text when Tab is pressed -->
+    <color name="state_pressed">#FFFFFF</color>
+    <!-- Text when Tab is focused (Example: Trackball focuses something) -->
+    <color name="state_focused">#FFFFFF</color>
+    <!-- Text when Tab is not selected -->
+    <color name="color">#E6E6E6</color>
+    <!-- Line under the Tabs-->
+    <color name="colorTabUnderline">#5f6fd7</color>
+    <!-- Text -->
+    <color name="textColor">#343434</color>
+    <!-- Background of the NavigationBar -->
+    <color name="navigationBarColor">#000000</color>
+    <!-- Border of Items in ListView -->
+    <color name="itemBorder">#EBEBEB</color>
+    <!-- Background of worst Activity -->
+    <color name="worst">#F6CECE</color>
+    <!-- Border of worst Activity -->
+    <color name="red">#c4ff0000</color>
+    <!-- Background of best Activity -->
+    <color name="best">#CEF6CE</color>
+    <!-- Border of best Activity -->
+    <color name="golden">#CFB53B</color>
+    <!-- Background of average Activity -->
+    <color name="avg">#F5F6CE</color>
+    <!-- Border of average Activity -->
+    <color name="yellow">#FFFF00</color>
+    <!-- Text of errors -->
+    <color name="textColorError">#FF0000</color>
+    <!-- Background of compare field -->
+    <color name="background">#FFFFFF</color>
+</resources>

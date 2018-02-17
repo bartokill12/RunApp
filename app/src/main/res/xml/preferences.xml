@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/category_general_title">
+
+        <ListPreference
+            android:defaultValue="@string/category_general_unit_default_value"
+            android:entries="@array/category_general_unit_entries"
+            android:entryValues="@array/category_general_unit_entry_values"
+            android:key="unit"
+            android:summary="%s"
+            android:title="@string/category_general_unit_title"/>
+
+        <ListPreference
+            android:defaultValue="@string/category_general_date_default_value"
+            android:entries="@array/category_general_date_entries"
+            android:entryValues="@array/category_general_date_entry_values"
+            android:key="date"
+            android:summary="%s"
+            android:title="@string/category_general_date_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_activity_title">
+
+        <ListPreference
+            android:defaultValue="@string/category_activity_interval_default_value"
+            android:entries="@array/category_activity_interval_entries"
+            android:entryValues="@array/category_activity_interval_entry_values"
+            android:key="interval"
+            android:summary="%s"
+            android:title="@string/category_activity_interval_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_map_title">
+
+        <ListPreference
+            android:defaultValue="@string/category_map_type_default_value"
+            android:entries="@array/category_map_type_entries"
+            android:entryValues="@array/category_map_type_entry_values"
+            android:key="type"
+            android:summary="%s"
+            android:title="@string/category_map_type_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

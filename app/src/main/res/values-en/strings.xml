@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">RunApp</string>
+    <!-- MainActivity.java -->
+    <string name="dialog_title">Requesting permissions</string>
+    <string name="dialog_message">This app needs the permission for GPS to track your route
+        during an activity</string>
+
+    <!-- ActivityFragment.java -->
+    <string name="activity_fragment_start">Start activity</string>
+    <string name="activity_fragment_stop">Stop activity</string>
+    <string name="activity_fragment_pause">Pause activity</string>
+    <string name="activity_fragment_resume">Resume activity</string>
+    <string name="activity_fragment_no_coordinates">There are no coordinates found in this
+        activity</string>
+    <string name="activity_fragment_duration_too_short">The duration of this activity is too
+        short</string>
+    <string name="activity_fragment_notification_going_on">Activity is going on</string>
+    <string name="activity_fragment_notification_pause">Activity is paused</string>
+    <string name="activity_fragment_distance_too_short">The distance of this activity is
+        too short</string>
+
+    <!-- TracksFragment.java + ActivitiesActivity.java -->
+    <string name="select">\u0020selected</string>
+    <string name="dialog_delete_track_title">Delete track</string>
+    <string name="dialog_delete_track_message">Dou you really want to delete the selected tracks
+        and their activities?</string>
+
+    <!-- TracksFragment.java -->
+    <string name="tracks_empty">There are no tracks</string>
+
+    <!-- TrackAdapter.java -->
+    <string name="track_adapter_singular">Activity</string>
+    <string name="track_adapter_plural">Activities</string>
+
+    <!-- ActivitiesActivity.java -->
+    <string name="dialog_delete_activity_message">Dou you really want to delete the selected
+        activities?</string>
+    <string name="activities_empty">There are no activities in this track</string>
+
+    <!-- MapsActivity.java -->
+    <string name="maps_activity_start">Start comparison</string>
+    <string name="maps_activity_stop">Stop comparison</string>
+    <string name="marker_start">Start</string>
+    <string name="marker_end">End</string>
+    <string name="dialog_bad_accuracy_title">Bad accuracy</string>
+    <string name="dialog_bad_accuracy_message">The accuracy of your GPS is low. We suggest you
+        that you find yourself under the open sky. Please make sure that the location mode in the
+        settings of your device is set to \'High accuracy\'. If not your tracked activity could be
+        inaccurate. Do you want to proceed anyway?</string>
+    <string name="dialog_go_back">Dou you want to stop the comparison?</string>
+    <string name="finished">Comparison finished</string>
+    <string name="not_connected">You are not connected with the Play Services</string>
+    <string name="dialog_no_location_title">Unknown location</string>
+    <string name="dialog_no_location_message">We can\'t find your current location. We suggest you
+        that you find yourself under the open sky or activate internet. Please retry it later
+        .</string>
+
+    <!-- LocationListenerCompare.java -->
+    <string name="faster">" slower"</string>
+    <string name="slower">" faster"</string>
+    <string name="equally">You are equally fast</string>
+
+    <!-- SaveActivityActivity.java + ActivitiesActivity.java -->
+    <string name="save_activity">Save activity</string>
+    <string name="dialog_back_pressed_title">Delete activity</string>
+    <string name="dialog_back_pressed_subtitle">Do you want to go back? The actual activity will
+        be deleted.</string>
+
+    <!-- ActivityTypes.java -->
+    <string name="running">RUNNING</string>
+    <string name="walking">WALKING</string>
+    <string name="cycling">CYCLING</string>
+    <string name="other">OTHER</string>
+
+    <!-- AddTrackDialogFactory.java -->
+    <string name="dialog_add_track_title">Add track</string>
+    <string name="dialog_error_no_name">Name is not set</string>
+    <string name="dialog_error_already_exists">Track already exists</string>
+
+    <!-- ChangeTrackDialogFactory.java -->
+    <string name="dialog_change_track_title">Change track</string>
+
+    <!-- AboutActivity.java -->
+    <string name="email">Please write an email to saulne79@gmail.com</string>
+
+    <!-- activity_item.xml -->
+    <string name="track_title">Track</string>
+    <string name="type_title">Type</string>
+
+    <!-- activity_item.xml + save_activity_activity.xml -->
+    <string name="distance_title">Distance</string>
+    <string name="avg_title">Average</string>
+    <string name="duration_title">Duration</string>
+    <string name="date_title">Date</string>
+
+    <!-- add_change_track_dialog.xml -->
+    <string name="dialog_track_subtitle">Please enter the name of the track</string>
+
+    <!-- preferences.xml -->
+    // General
+    <string name="category_general_title">General</string>
+    <string name="category_general_unit_title">Unit of length</string>
+    <string name="category_general_date_title">Format of date</string>
+    // Activity
+    <string name="category_activity_title">Activity</string>
+    <string name="category_activity_interval_title">Interval of saving positions</string>
+    // Map
+    <string name="category_map_title">Map</string>
+    <string name="category_map_type_title">Type of map</string>
+
+    <!-- about_activity.xml -->
+    <string name="developer">Saul Nuñez</string>
+    <string name="school">Area 51</string>
+    <string name="source_code">Source code</string>
+    <string name="report_bug">Report bug</string>
+    <string name="rate_this_app">Rate this app</string>
+
+    <!-- main_menu.xml + AndroidManifest.xml -->
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+
+    <!-- request_permission_activity.xml-->
+    <string name="request_permission">Request permission</string>
+    <string name="sorry">This app doesn`t work without the permission to use GPS for requesting
+        locations</string>
+
+    <!-- arrays.xml -->
+    <string name="activity">Activity</string>
+    <string name="tracks">Tracks</string>
+
+    <!-- Toasts -->
+    <string name="toast_enable_gps">Please enable GPS</string>
+    <string name="toast_wait">Wait a moment...</string>
+    <string name="toast_connection_lost">Connection to Play Services was lost with
+        error\u0020</string>
+    <string name="toast_connection_failed">Connection to Play Services failed</string>
+    <string name="toast_error_save_track">An error has occured when inserting the activity</string>
+    <string name="toast_delete_activity_error">Can\'t delete activity</string>
+    <string name="toast_delete_track_error">Can\'t delete track</string>
+    <string name="toast_save_no_track_error">Please insert a track</string>
+    <string name="toast_not_at_start">Please go to the start point</string>
+    <string name="toast_shutdown">You can\'t shut down the app from here. Use instead the
+        \"Recents\" Button</string>
+</resources>

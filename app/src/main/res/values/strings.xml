@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">RunApp</string>
+    <!-- MainActivity.java -->
+    <string name="dialog_title">Solicitar permisos</string>
+    <string name="dialog_message">Esta aplicación necesita el permiso para que el GPS rastree tu ruta durante una actividad</string>
+
+    <!-- ActivityFragment.java -->
+    <string name="activity_fragment_start">Iniciar actividad</string>
+    <string name="activity_fragment_stop">Detener actividad</string>
+    <string name="activity_fragment_pause">Pausar actividad</string>
+    <string name="activity_fragment_resume">Reanudar actividad</string>
+    <string name="activity_fragment_no_coordinates">No hay coordenadas encontradas en este actividad</string>
+    <string name="activity_fragment_duration_too_short">La duración de esta actividad es muy corta</string>
+    <string name="activity_fragment_notification_going_on">La actividad continúa</string>
+    <string name="activity_fragment_notification_pause">La actividad está en pausa</string>
+    <string name="activity_fragment_distance_too_short">La distancia de esta actividad es demasiado corta</string>
+
+    <!-- TracksFragment.java + ActivitiesActivity.java -->
+    <string name="select">seleccionado</string>
+    <string name="dialog_delete_track_title">Eliminar ruta</string>
+    <string name="dialog_delete_track_message">Realmente desea eliminar las pistas seleccionadas y sus actividades?
+    </string>
+
+    <!-- TracksFragment.java -->
+    <string name="tracks_empty">No hay rutas</string>
+
+    <!-- TrackAdapter.java -->
+    <string name="track_adapter_singular">Actividad</string>
+    <string name="track_adapter_plural">Actividades</string>
+
+    <!-- ActivitiesActivity.java -->
+    <string name="dialog_delete_activity_message">Realmente desea eliminar el seleccionado actividades?</string>
+    <string name="activities_empty">No hay actividades en esta ruta</string>
+
+    <!-- MapsActivity.java -->
+    <string name="maps_activity_start">Comenzar la comparación</string>
+    <string name="maps_activity_stop">Detener comparación</string>
+    <string name="marker_start">Inicio</string>
+    <string name="marker_end">Fin</string>
+    <string name="dialog_bad_accuracy_title">Mala Presicion de GPS</string>
+    <string name="dialog_bad_accuracy_message">La precisión de su GPS es baja. Te sugerimos que te encuentras bajo el cielo abierto. Por favor, asegúrese de que el modo de ubicación en la configuración de su dispositivo está configurada en Alta precisión. ¿Quieres continuar de todos modos?</string>
+    <string name="dialog_go_back">¿Desea detener la comparación?</string>
+    <string name="finished">Comparación finalizada</string>
+    <string name="not_connected">No está conectado con los Servicios de Google Play</string>
+    <string name="dialog_no_location_title">Ubicación desconocida</string>
+    <string name="dialog_no_location_message">No podemos encontrar su ubicación actual. Te sugerimos que te encuentras bajo el cielo abierto o activa internet. Vuelve a intentarlo más tarde.</string>
+
+    <!-- LocationListenerCompare.java -->
+    <string name="faster">" lento"</string>
+    <string name="slower">" rapido"</string>
+    <string name="equally">Eres igual de rápido</string>
+
+    <!-- SaveActivityActivity.java + ActivitiesActivity.java -->
+    <string name="save_activity">Guardar actividadn</string>
+    <string name="dialog_back_pressed_title">Eliminar actividad</string>
+    <string name="dialog_back_pressed_subtitle">¿Quieres volver? La actividad actual se ha eliminado.</string>
+
+    <!-- ActivityTypes.java -->
+    <string name="running">CORRIENDO</string>
+    <string name="walking">CAMINANDO</string>
+    <string name="cycling">EN BICICLETA</string>
+    <string name="other">OTRO</string>
+
+    <!-- AddTrackDialogFactory.java -->
+    <string name="dialog_add_track_title">Añadir ruta</string>
+    <string name="dialog_error_no_name">El nombre no esta configurado</string>
+    <string name="dialog_error_already_exists">Esta ruta ya existe</string>
+
+    <!-- ChangeTrackDialogFactory.java -->
+    <string name="dialog_change_track_title">Cambiar ruta</string>
+
+    <!-- AboutActivity.java -->
+    <string name="github" translatable="false">https://github.com/bartokill12/runapp</string>
+    <string name="email">Por favor, escriba un correo electrónico a saulne79@gmail.com</string>
+    <string name="mailto" translatable="false">mailto:saulne79@gmail.com</string>
+    <string name="market" translatable="false">market://google.com.pe</string>
+    <string name="play_store" translatable="false">https://google.com.pe</string>
+
+    <!-- activity_item.xml -->
+    <string name="track_title">Ruta</string>
+    <string name="type_title">Tipo</string>
+
+    <!-- activity_item.xml + save_activity_activity.xml -->
+    <string name="distance_title">Distancia</string>
+    <string name="avg_title">Promedio</string>
+    <string name="duration_title">Duracion</string>
+    <string name="date_title">Fecha</string>
+
+
+    <!-- add_change_track_dialog.xml -->
+    <string name="dialog_track_subtitle">Ingrese el nombre de la ruta</string>
+
+    <!-- preferences.xml -->
+    // General
+    <string name="category_general_title">General</string>
+    <string name="category_general_unit_title">Unidad de longitud</string>
+    <string name="category_general_unit_default_value" translatable="false">km</string>
+    <string name="category_general_date_title">Formato de la fecha</string>
+    <string name="category_general_date_default_value" translatable="false">dd.MM.yyyy
+        HH:mm:ss</string>
+    // Activity
+    <string name="category_activity_title">Actividad</string>
+    <string name="category_activity_interval_title">Intervalo de guardado de posiciones</string>
+    <string name="category_activity_interval_default_value" translatable="false">5</string>
+    // Map
+    <string name="category_map_title">Mapa</string>
+    <string name="category_map_type_title">Tipo de mapa</string>
+    <string name="category_map_type_default_value" translatable="false">0</string>
+
+    <!-- about_activity.xml -->
+    <string name="version" translatable="false">v1.0</string>
+    <string name="developer">Saul Nuñez</string>
+    <string name="school">TFO \'Area51\'</string>
+    <string name="libraries">Bibliotecas</string>
+    <string name="source_code">Código fuente</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="credits">Créditos</string>
+    <string name="report_bug">Informar error</string>
+    <string name="rate_this_app">Califica esta aplicación</string>
+
+    <!-- main_menu.xml + AndroidManifest.xml -->
+    <string name="settings">Configuración</string>
+    <string name="about">Acerca de</string>
+
+    <!-- request_permission_activity.xml-->
+    <string name="request_permission">Solicitar permiso</string>
+    <string name="sorry">Esta aplicación no funciona sin el permiso para usar GPS para solicitar ubicaciones</string>
+
+    <!-- arrays.xml -->
+    <string name="activity">Actividad</string>
+    <string name="tracks">Rutas</string>
+
+    <!-- Toasts -->
+    <string name="toast_enable_gps">Habilite el GPS</string>
+    <string name="toast_wait">Espere un momento ...</string>
+    <string name="toast_connection_lost">La conexión a Play Services se perdió con error \\u0020</string>
+    <string name="toast_connection_failed">Falló la conexión a los servicios de Goggle Play</string>
+    <string name="toast_error_save_track">Ocurrió un error al guardar la actividad</string>
+    <string name="toast_delete_activity_error">No se puede eliminar la actividad</string>
+    <string name="toast_delete_track_error">No se puede eliminar la ruta</string>
+    <string name="toast_save_no_track_error">Inserta una ruta</string>
+    <string name="toast_not_at_start">Vaya al punto de inicio</string>
+    <string name="toast_shutdown">No puedes cerrar la aplicación desde aquí. Use en cambio el boton  Recientes \"</string>
+</resources>

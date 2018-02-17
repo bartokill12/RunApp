@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="17dp"
+    android:theme="@style/AppThemeWithActionBar">
+
+    <TextView
+        android:id="@+id/dialog_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_track_subtitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/dialog_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/textColorError"
+        android:visibility="gone"/>
+
+</LinearLayout>
